@@ -1,0 +1,200 @@
+:root {
+  --font-milo: 'Milo', sans-serif;
+  --font-awesome: 'FontAwesome';
+  --font-league-gathic: 'League Gothic', sans-serif;
+
+  --red: #c8102e;
+  --brick: #960C22;
+  --cream: #fff9d9;
+  --gold: #f6be00;
+  --white: #fff;
+  --chocolate: #640817;
+}
+
+a {
+  color: var(--red);
+}
+
+a:hover,
+a:focus {
+  color: var(--brick);
+  text-decoration: underline;
+}
+
+.uhl-header {
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  z-index: 2000;
+  background-color: var(--red);
+  display: flex;
+}
+
+.uhl-header .content {
+  max-width: 100%;
+  width: 100%;
+}
+
+.uhl-header .header-links {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.uhl-header .header-links .content {
+  width: 100%;
+  max-width: 14400px;
+  padding: 0 2.5rem;
+  text-align: right;
+}
+
+.uhl-header .header-links .content .uhlib-logo {
+  background: transparent;
+  height: 48px;
+  z-index: 2000;
+  position: relative;
+  width: auto;
+  transition: height .25s;
+  float: left;
+}
+
+.uhl-header .header-links .content .uhlib-logo img {
+  height: 100%;
+  padding: 10px 0;
+}
+
+.uhlib-links {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.uhlib-links ul {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  list-style: none;
+  padding: 0;
+  font-size: .875rem;
+  font-family: var(--font-milo);
+}
+
+.uhlib-links ul li {
+  display: inline;
+  color: var(--gold);
+}
+
+.uhlib-links ul li a {
+  font-weight: 400;
+  color: var(--cream);
+  padding: 0 10px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+  transition: color .25s ease;
+}
+
+.uhlib-links ul li a:hover,
+.uhlib-links ul li a:visited {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.uhlib-links ul li a::before {
+  font-family: var(--font-awesome);
+  margin-right: 5px;
+}
+
+.uhlib-links ul li a.contact::before {
+  content: "\f075";
+}
+
+.uhlib-links ul li a.accounts::before {
+  content: "\f2bd";
+}
+
+.uhlib-links ul li a.giving svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  vertical-align: middle;
+  position: relative;
+}
+
+.uhl-header .site-name {
+  background-color: var(--brick);
+  color: var(--white);
+  line-height: calc(1em + 3px);
+  padding: 10px 0;
+}
+
+.uhl-header .site-name .content {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.uhl-header .site-name .content h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font-family: var(--font-league-gathic);
+  font-size: calc(22px + (44 - 22) * (100vw - 320px) / (992 - 320));
+}
+
+.uhl-header a,
+.uhl-header a:visited,
+.uhl-header a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#navigation .navbar {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: var(--brick);
+  border: none;
+}
+
+.top-bar {
+  background-color: var(--brick) !important;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li {
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-nav>li:hover {
+  background-color: var(--chocolate);
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: var(--font-milo);
+  color: var(--cream);
+  transition: font-size 0.25s;
+  font-weight: bold;
+  font-size: 1.15rem !important;
+  height: 3rem;
+  padding: 0 1rem 0 1rem;
+  vertical-align: baseline;
+  line-height: 3rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
