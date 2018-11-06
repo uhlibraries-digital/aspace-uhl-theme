@@ -52,6 +52,14 @@ h3 {
   border-color: var(--brick);
 }
 
+/* PILLS */
+.tabbing.nav-pills>li>a {
+  background-color: var(--teal);
+}
+.tabbing.nav-pills>li>a.active {
+  background-color: var(--green);
+}
+
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
