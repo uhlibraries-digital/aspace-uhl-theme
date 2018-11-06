@@ -45,6 +45,13 @@ h3 {
 .breadcrumb * a {
   color: var(--red);
 }
+
+/* BUTTONS */
+.btn-primary {
+  background-color: var(--red);
+  border-color: var(--brick);
+}
+
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
