@@ -70,6 +70,39 @@ h3 {
   border-color: var(--green);
 }
 
+/* SIDEBAR */
+.largetree-container {
+  background-color: var(--white);
+}
+
+.largetree-container tr.current {
+  outline: var(--red);
+}
+
+.largetree-container tr.current td {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+}
+
+.largetree-container tr.current td a {
+  color: var(--white);
+}
+
+.largetree-container tr.current .indentor {
+  background-color: var(--red);
+}
+
+.largetree-container .indentor {
+  background-color: var(--white);
+  background-image: none;
+}
+
+.largetree-container table.root tbody tr:nth-of-type(odd) {
+  background-color: var(--white);
+}
+
+
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
