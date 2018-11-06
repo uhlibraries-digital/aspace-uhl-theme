@@ -60,6 +60,16 @@ h3 {
   background-color: var(--green);
 }
 
+/* PAGE ACTION BUTTONS */
+.page_action {
+  color: var(--dark);
+}
+
+.page_action:hover {
+  color: var(--teal);
+  border-color: var(--green);
+}
+
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
