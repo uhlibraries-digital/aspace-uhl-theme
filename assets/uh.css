@@ -9,6 +9,12 @@
   --gold: #f6be00;
   --white: #fff;
   --chocolate: #640817;
+  --dark: #333;
+  --slate: #54585a;
+}
+
+html {
+  background: var(--dark);
 }
 
 a {
@@ -21,6 +27,7 @@ a:focus {
   text-decoration: underline;
 }
 
+/* HEADER */
 .uhl-header {
   margin: 0 auto;
   padding: 0;
@@ -194,7 +201,108 @@ a:focus {
   line-height: 3rem;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
   color: var(--white);
   text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 30px;
+}
+
+.uhl-footer {
+  font-family: var(--font-milo);
+  font-size: 1rem;
+  background: var(--red);
+  position: relative;
+}
+
+.uhl-footer a {
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.uhl-footer ul {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+.uhl-footer .footer-inner {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.uhl-footer .footer-inner .footer-links {
+  text-align: center;
+}
+
+.uhl-footer .footer-inner .footer-links .footer-links-list {
+  margin: 10px 0;
+}
+
+.uhl-footer .footer-inner .footer-links .footer-links-list li {
+  line-height: 34px;
+  display: inline-block;
+}
+
+.uhl-footer .footer-inner .footer-links .footer-links-list li a {
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.global-footer {
+  background-color: var(--slate);
+  color: var(--white);
+  font-size: 14px;
+  padding: 1em 0;
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+}
+
+.global-footer .container {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  width: 100%;
+}
+
+.global-footer .container a {
+  color: var(--cream);
+  text-decoration: none;
+  transition: color .25s ease;
+}
+
+.global-footer .container a:hover {
+  color: var(--white);
+}
+
+.global-footer .container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.global-footer .container ul li {
+  display: inline-block;
+  margin-right: .5em;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.global-footer .container ul li.nav-item-highlighted a {
+  color: var(--gold);
+  transition: color .25s ease;
+}
+
+.global-footer a.copyright {
+  display: inline;
+  margin: 0 .5em 0 0;
+  color: var(--white);
 }
