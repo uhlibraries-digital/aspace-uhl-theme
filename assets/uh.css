@@ -41,6 +41,10 @@ h2 {
 h3 {
   color: var(--slate-dark);
 }
+
+.breadcrumb * a {
+  color: var(--red);
+}
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
