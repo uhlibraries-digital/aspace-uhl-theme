@@ -52,6 +52,29 @@ h3 {
   border-color: var(--brick);
 }
 
+.btn-primary:hover {
+  background-color: var(--brick);
+  border-color: var(--chocolate);
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: var(--brick);
+  border-color: var(--chocolate);
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: var(--brick);
+  border-color: var(--chocolate);
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover {
+  background-color: var(--brick);
+  border-color: var(--chocolate);
+}
+
 /* PILLS */
 .tabbing.nav-pills>li>a {
   background-color: var(--teal);
