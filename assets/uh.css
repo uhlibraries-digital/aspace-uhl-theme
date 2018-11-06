@@ -11,6 +11,9 @@
   --chocolate: #640817;
   --dark: #333;
   --slate: #54585a;
+  --slate-dark: #555555;
+  --teal: #00b388;
+  --green: #00866c; 
 }
 
 html {
@@ -27,6 +30,17 @@ a:focus {
   text-decoration: underline;
 }
 
+h1 {
+  color: var(--dark);
+}
+
+h2 {
+  color: var(--dark);
+}
+
+h3 {
+  color: var(--slate-dark);
+}
 /* HEADER */
 .uhl-header {
   margin: 0 auto;
