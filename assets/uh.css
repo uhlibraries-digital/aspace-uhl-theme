@@ -222,6 +222,7 @@ h3 {
   fill: currentColor;
   vertical-align: middle;
   position: relative;
+  margin-right: 5px;
 }
 
 .uhl-header .site-name {
