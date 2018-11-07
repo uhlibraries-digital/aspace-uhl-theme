@@ -13,7 +13,7 @@
   --slate: #54585a;
   --slate-dark: #555555;
   --teal: #00b388;
-  --green: #00866c; 
+  --green: #00866c;
 }
 
 html {
@@ -47,30 +47,19 @@ h3 {
 }
 
 /* BUTTONS */
-.btn-primary {
+.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus {
   background-color: var(--red);
   border-color: var(--brick);
 }
 
-.btn-primary:hover {
-  background-color: var(--brick);
-  border-color: var(--chocolate);
-}
-
-.btn-primary:focus,
-.btn-primary.focus {
-  background-color: var(--brick);
-  border-color: var(--chocolate);
-}
-
+.btn-primary:hover,
 .btn-primary:active,
-.btn-primary.active {
-  background-color: var(--brick);
-  border-color: var(--chocolate);
-}
-
-.btn-primary:active:hover,
-.btn-primary.active:hover {
+.btn-primary:active:focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus {
   background-color: var(--brick);
   border-color: var(--chocolate);
 }
@@ -79,6 +68,7 @@ h3 {
 .tabbing.nav-pills>li>a {
   background-color: var(--teal);
 }
+
 .tabbing.nav-pills>li>a.active {
   background-color: var(--green);
 }
