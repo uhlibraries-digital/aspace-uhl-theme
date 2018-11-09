@@ -1,10 +1,10 @@
 # ArchivesSpace UHL Public User Interface Theme
 
-UHL Branding for ArchivesSpace
+University of Houston Libraries Branding for [ArchivesSpace](https://github.com/archivesspace/archivesspace)
 
 ## Install
 
-This theme replaces the 'local' plugin shipped with ArchivesSpace. Please make backups of all your plugins before installing. It is assumed you have the latest version of ArchivesSpace already installed.
+This theme replaces the 'local' public plugin shipped with ArchivesSpace. Please make backups of all your plugins before installing. It is assumed you have the latest version of ArchivesSpace already installed.
 
 Installation:
 
