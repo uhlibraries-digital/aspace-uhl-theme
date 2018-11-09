@@ -31,6 +31,6 @@ When contributing to this repository, please first discuss the change you wish t
 
 1) Fork this repository before making any changes
 2) Ensure you have pulled changes from this repository, or upsteam, if you have previously forked this repository
-2) Ensure that any local development dependencies are removed
-3) Make a pull request to this repository
-4) Notify the Digital Asset Management Team a pull request was made with the change
+3) Ensure that any local development dependencies are removed
+4) Make a pull request to this repository
+5) Notify the Digital Asset Management Team a pull request was made with the change
