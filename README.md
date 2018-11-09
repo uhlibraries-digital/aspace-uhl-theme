@@ -22,3 +22,15 @@ $ git clone https://github.com/uhlibraries-digital/aspace-uhl-theme.git public
 ## Development
 
 Information on making changes to the ArchivesSpace theme is at https://github.com/archivesspace/archivesspace/blob/master/CUSTOMIZING_THEMING.md.
+
+## Contributing
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or other method with the Digital Asset Management Team before making a change.
+
+### Pull Request Process
+
+1) Fork this repository before making any changes
+2) Ensure you have pulled changes from this repository, or upsteam, if you have previously forked this repository
+2) Ensure that any local development dependencies are removed
+3) Make a pull request to this repository
+4) Notify the Digital Asset Management Team a pull request was made with the change
