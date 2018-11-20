@@ -139,7 +139,6 @@ h3 {
   position: relative;
   width: 100%;
   max-width: 1920px;
-  z-index: 2000;
   background-color: var(--red);
   display: flex;
 }
@@ -152,7 +151,6 @@ h3 {
 .uhl-header .header-links {
   width: 100%;
   position: relative;
-  z-index: 1000;
   flex-direction: row;
   flex-grow: 1;
 }
@@ -167,7 +165,6 @@ h3 {
 .uhl-header .header-links .content .uhlib-logo {
   background: transparent;
   height: 48px;
-  z-index: 2000;
   position: relative;
   width: auto;
   transition: height .25s;
