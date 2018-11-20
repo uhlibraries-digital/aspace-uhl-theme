@@ -65,8 +65,23 @@ h3 {
 }
 
 /* PILLS */
+.tabbing.nav-pills>li:first-child a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.tabbing.nav-pills>li:last-child a {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tabbing.nav-pills>li {
+  margin-right: 10px;
+}
+
 .tabbing.nav-pills>li>a {
   background-color: var(--teal);
+  margin-right: 10px;
 }
 
 .tabbing.nav-pills>li>a.active {
