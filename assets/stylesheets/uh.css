@@ -408,3 +408,33 @@ h3 {
   margin: 0 .5em 0 0;
   color: var(--white);
 }
+
+/* NAVIGATION */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: var(--cream);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: var(--brick);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: var(--brick);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .uhlib-links {
+    height: 48px;
+  }
+
+  .uhlib-links>ul {
+    display: none;
+  }
+
+  .uhl-header .header-links .content .uhlib-logo img {
+    max-width: 100%;
+  }
+}
