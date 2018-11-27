@@ -91,6 +91,7 @@ h3 {
 }
 
 .tabbing.nav-pills>li>a {
+  background-color: #00b388;
   background-color: var(--teal);
   margin-right: 10px;
 }
@@ -451,12 +452,14 @@ h3 {
 }
 
 .global-footer .container a {
+  color: #fff9d9;
   color: var(--cream);
   text-decoration: none;
   transition: color .25s ease;
 }
 
 .global-footer .container a:hover {
+  color: #fff;
   color: var(--white);
 }
 
