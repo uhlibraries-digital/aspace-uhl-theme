@@ -153,6 +153,10 @@ h3 {
   background-color: var(--white);
 }
 
+.more-facets .btn {
+  color: var(--teal);
+}
+
 
 /* HEADER */
 .uhl-header {
