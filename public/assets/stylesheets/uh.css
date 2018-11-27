@@ -98,6 +98,29 @@ h3 {
   border-color: var(--green);
 }
 
+/* PAGINATION */
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: var(--green);
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: var(--slate-dark);
+}
+
+.pagination>.active>a,
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  background-color: var(--teal);
+  border-color: var(--green);
+}
+
 /* SIDEBAR */
 .largetree-container {
   background-color: var(--white);
