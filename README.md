@@ -4,20 +4,24 @@ University of Houston Libraries Branding for [ArchivesSpace](https://github.com/
 
 ## Install
 
-This theme replaces the 'local' public plugin shipped with ArchivesSpace. Please make backups of all your plugins before installing. It is assumed you have the latest version of ArchivesSpace already installed.
+This theme is a ArchivesSpace plugin. Please make backups of all your plugins before installing. It is assumed you have the latest version of ArchivesSpace already installed.
 
 Installation:
 
-1) Follow the commands below to install the UHL public theme
+1) Download the UHL public theme
 
 ```
-$ cd /path/to/archivesspace
-$ cd plugins/local
-$ rm public
-$ git clone https://github.com/uhlibraries-digital/aspace-uhl-theme.git public
+$ cd /path/to/archivesspace/plugins
+$ git clone https://github.com/uhlibraries-digital/aspace-uhl-theme.git uhl-theme
 ```
 
-2) Restart ArchivesSpace
+2) Update ArchivesSpace `config/config.rb` and add `uhl-theme` to `AppConfig[:plugins]`. You might have to uncomment this line (remove `#`) if this is the first time installing a plugin. [Read more](http://archivesspace.github.io/archivesspace/user/archivesspace-plug-ins-readme/) about ArchivesSpace Plugin-ins.
+
+```
+AppConfig[:plugins] = ['uhl-theme']
+```
+
+3) Restart ArchivesSpace
 
 ## Development
 
