@@ -6,3 +6,11 @@ en:
   
   actions:
     hierarch: Finding Aid View
+
+  classification:
+    _singular: Collecting Area
+    _plural: Collecting Areas
+
+  record_group:
+    _singular: Collecting Area
+    _plural: Collecting Areas
