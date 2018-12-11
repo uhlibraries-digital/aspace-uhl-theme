@@ -2,4 +2,7 @@ en:
   brand:
     title: University of Houston Libraries
     welcome_page_title: Finding Aids
-    welcome_head: Welcome to University of Houston Libraries Finding Aids
+    welcome_head: Welcome to Archives and Finding Aids at UH Libraries
+  
+  actions:
+    hierarch: Finding Aid View
