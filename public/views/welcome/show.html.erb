@@ -1,0 +1,37 @@
+
+<div class="row">
+<div class="col-sm-12">
+  <h2><%= t('brand.welcome_head') %></h2>
+    <div> <%= t('brand.welcome_message').html_safe %> </div>
+</div>
+</div>
+
+  <%= render partial: 'shared/search', locals: {
+    :search_url => "/search",
+    :title => t('archive._plural'),
+    :limit_options => [
+          ["#{t('actions.search')} #{t('search-limits.all')}",''],
+          [t('search-limit', :limit => t('search-limits.resources')),'resource'],
+          [t('search-limit', :limit => t('search-limits.digital')),'digital_object']
+        ],
+    :field_options => [
+          ["#{t('search_results.filter.fullrecord')}",''],
+          ["#{t('search_results.filter.title')}",'title'],
+          ["#{t('search_results.filter.creators')}",'creators_text'],
+          ["#{t('search_results.filter.subjects')}",'subjects_text'],
+          ["#{t('search_results.filter.notes')}", 'notes'],
+          ["#{t('search_results.filter.identifier')}", 'four_part_id']
+         ]
+  } %>
+
+<div class="row welcome-text">
+  <div class="col-sm-6">
+    <h3>About this site</h3>
+    <p>University of Houston Libraries Special Collections preserves and provides access to archival materials with a focus on Houston and Texas history in a range of topical collecting areas. The finding aids on this site describe the creators, context, and contents of our archival collections, helping you discover materials in our collections for research and teaching. Search or browse collections to get started.</p>
+  </div>
+  <div class="col-sm-6">
+    <h3>Visiting Special Collections</h3>
+    <p>The Special Collections reading room is open to the general public from 9 a.m. to 5 p.m., Monday through Friday, and on Saturdays during the fall and spring semesters from noon to 4 p.m. More information on Visiting Special Collections is available on our <a href="https://libraries.uh.edu/branches/special-collections/" title="Special Collections website">website</a>.
+    Collections are non-circulating and must be used in the reading room. We’re happy to pull materials and have them ready upon your arrival -- just contact us using the request button found on each finding aid. Some finding aids contain digitized versions of collection materials, but in most cases viewing a collection in its entirety will require visiting the reading room.</p>
+  </div>
+</div>

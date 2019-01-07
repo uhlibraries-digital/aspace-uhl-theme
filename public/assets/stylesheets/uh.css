@@ -528,6 +528,11 @@ h3 {
   border-color: var(--brick);
 }
 
+/* WELCOME */
+.welcome-text {
+  margin-top: 20px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .uhlib-links>ul {
