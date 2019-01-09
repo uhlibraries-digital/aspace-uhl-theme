@@ -1,6 +1,6 @@
 # ArchivesSpace UHL Public User Interface Theme
 
-University of Houston Libraries Branding for [ArchivesSpace](https://github.com/archivesspace/archivesspace)
+University of Houston Libraries Branding and Welcome text for [ArchivesSpace](https://github.com/archivesspace/archivesspace)
 
 ## Install
 
