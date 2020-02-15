@@ -75,6 +75,10 @@ h3 {
   border-color: var(--chocolate);
 }
 
+.acc_button {
+  margin-bottom: 5px;
+}
+
 /* PILLS */
 .tabbing.nav-pills>li:first-child a {
   border-top-left-radius: 0;
