@@ -546,6 +546,11 @@ h3 {
   margin-top: 20px;
 }
 
+/* Digital Object file icon */
+.objectimage .digital_object .panel-heading  {
+  white-space: normal;
+}
+
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .uhlib-links>ul {
